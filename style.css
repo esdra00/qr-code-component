@@ -1,0 +1,69 @@
+:root {
+	--white: hsl(0, 0%, 100%);
+	--lightGray: hsl(212, 45%, 89%);
+	--grayishBlue: hsl(220, 15%, 55%);
+	--darkBlue: hsl(218, 44%, 22%);
+	--fontSize: 15px;
+	--fontFamily-outfit: "Outfit", sans-serif;
+	--fontWeigth-title: 700;
+	--fontWeight-desc: 400;
+}
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	height: 100vh;
+	width: 100vw;
+	position: relative;
+	background-color: var(--lightGray);
+}
+.contentwrapper {
+	height: 600px;
+	width: 400px;
+	position: absolute;
+	margin: auto;
+	inset: 0;
+	padding-bottom: 50px;
+	background-color: var(--white);
+	border-radius: 25px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+.imgContainer {
+	height: 60%;
+	width: 90%;
+	margin: 20px;
+	border-radius: 25px;
+	background-image: url(./images/image-qr-code.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.cardTitle,
+.cardDesc {
+	text-align: center;
+	max-width: 80%;
+	margin: 10px auto;
+	font-family: var(--fontFamily-outfit);
+	font-size: var(--fontSize);
+}
+.cardTitle {
+	font-size: calc(var(--fontSize) * 1.7);
+	font-weight: var(--fontWeigth-title);
+	color: var(--darkBlue);
+}
+.cardDesc {
+	font-weight: var(--fontWeight-desc);
+	color: var(--grayishBlue);
+}
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
