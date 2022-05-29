@@ -19,7 +19,7 @@ body {
 	position: relative;
 	background-color: var(--lightGray);
 }
-.contentwrapper {
+.contentWrapper {
 	height: 600px;
 	width: 400px;
 	position: absolute;
@@ -66,4 +66,18 @@ body {
 }
 .attribution a {
 	color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 500px), screen and (max-height: 700px) {
+	.contentWrapper {
+		height: 400px;
+		width: 250px;
+		padding-bottom: 25px;
+	}
+	.cardTitle {
+		font-size: var(--fontSize);
+	}
+	.cardDesc {
+		font-size: calc(var(--fontSize) * 0.7);
+	}
 }
