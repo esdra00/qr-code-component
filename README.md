@@ -15,6 +15,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Overview
 
+Your challenge is to build out this QR code component and get it looking as close to the design as possible.
+
 ### Screenshot
 
 ![](./screenshot.png)
