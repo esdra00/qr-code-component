@@ -25,8 +25,8 @@ Screenshot of my solution
 
 ### Links
 
--    Solution URL: [Add solution URL here](https://your-solution-url.com)
--    Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+-    Solution URL: (https://github.com/esdra00/qr-code-component.git)
+-    Live Site URL: (https://esdra00.github.io/qr-code-component/)
 
 ## My process
 
